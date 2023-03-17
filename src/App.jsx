@@ -7,6 +7,7 @@ import Winners from "./assets/pages/Winners";
 import Refunds from "./assets/pages/Refunds";
 import './assets/styles/normalize.css'
 import Login from "./assets/pages/Login";
+import Footer from "./assets/component/Footer";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/login" element={<Login/>}/>
         </Routes>
       </HashRouter>
+      <Footer />
     </div>
   )
 }

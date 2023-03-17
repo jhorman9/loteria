@@ -1,3 +1,7 @@
 :root{
-    --dark: #333;
+    --primary: #faa307;
+    --secondary: #dc2f02;
+    --textdark: #03071e;
+    --textlight: #e5e5e5;
+    --bg-content: #fff;
 }

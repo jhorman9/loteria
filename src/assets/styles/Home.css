@@ -9,19 +9,21 @@
 
 .home-content{
     max-width: 1400px;
-    display: flex;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
 }
 
 .home .home-content .category{
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: fit-content;
     height: calc(100vh - 320px);
     padding: 0 50px;
     color: var(--textlight);
-    margin-left: 35px;
     box-shadow: 0 0 10px var(--textdark);
+    margin-left: 30px;
 }
 
 .home .home-content .category h3{
@@ -43,6 +45,6 @@
 
 .home .home-content .content{
     width: 1000px;
-    margin-left: 35px;
     box-shadow: 0 0 10px var(--textdark);
+    margin-right: 30px;
 }

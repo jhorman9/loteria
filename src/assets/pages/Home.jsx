@@ -5,6 +5,7 @@ const Home = () => {
         <div className='home'>
             <div className="home-content">
                 <div className="category">
+                    <h3>Categorias</h3>
                     <ul>
                         <li>Ganadores</li>
                         <li>Reembolsos</li>
@@ -12,6 +13,11 @@ const Home = () => {
                         <li>Historico de sorteo</li>
                         <li>Deportes</li>
                     </ul>
+                </div>
+                <div className="content">
+                    <div className="content_banner">
+                        <img src="" alt="imagen" />
+                    </div>
                 </div>
             </div>
     </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Footer.css'
+import Logo from '../images/blueLogo.png'
 
 const Footer = () => {
     return (
@@ -7,10 +8,10 @@ const Footer = () => {
             <div className="footer-content">
                 <div className="footer-primary">
                     <div className="logo">
-                        <img src="" alt="LOGO" />
+                        <img src={Logo} alt="LOGO" />
                     </div>
                     <div className="navigator">
-                        <h5>Navegación</h5>
+                        <h4>NAVEGACIÓN</h4>
                         <ul>
                             <div className="first-list">
                                 <li>Home</li>
@@ -24,7 +25,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="services">
-                        <h5>Servicios</h5>
+                        <h4>SERVICIOS</h4>
                         <ul>
                             <div className="first-list">
                                 <li>Home</li>
@@ -38,7 +39,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="legal">
-                        <h5>Legal</h5>
+                        <h4>LEGAL</h4>
                         <ul>
                             <li>Politicas de privacidad</li>
                             <li>Terminos y condiciones</li>

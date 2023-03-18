@@ -5,3 +5,7 @@
     --textlight: #e5e5e5;
     --bg-content: #fff;
 }
+
+body{
+    font-family: 'Nunito', sans-serif;
+}

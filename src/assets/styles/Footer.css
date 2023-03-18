@@ -6,6 +6,19 @@
     color: var(--textlight);
 }
 
+.Footer .footer-content .footer-primary .logo{
+    width: max-content;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer .footer-content .footer-primary .logo img{
+    width: 100%;
+    height: 100%;
+}
+
 .Footer .footer-content{
     height: 100%;
     max-width: 1400px;
@@ -21,14 +34,15 @@
     padding-left: 0;
 }
 
-.Footer .footer-content h5{
+.Footer .footer-content h4{
     color: var(--textlight);
+    text-align: center;
 }
 
 .Footer .footer-content .footer-primary{
     display: flex;
     justify-content: space-between;
-    margin-top: 17px;
+    margin: 15px 15px 0px 15px;
 }
 
 .Footer .footer-content .footer-primary .navigator ul,

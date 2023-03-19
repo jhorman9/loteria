@@ -1,10 +1,10 @@
 .home{
-    height: calc(100vh - 302px);
     background: rgb(250,163,7);
     background: linear-gradient(180deg, rgba(250,163,7,1) 0%, rgba(220,47,2,1) 100%);
     width: 100%;
     display: flex;
     align-items: center;
+    padding: 35px 0;
 }
 
 .home-content{
@@ -19,7 +19,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: calc(100vh - 320px);
     padding: 0 50px;
     color: var(--textlight);
     box-shadow: 0 0 10px var(--textdark);
@@ -45,6 +44,7 @@
 
 .home .home-content .content{
     width: 1000px;
+    height: 450px;
     box-shadow: 0 0 10px var(--textdark);
     margin-right: 30px;
 }

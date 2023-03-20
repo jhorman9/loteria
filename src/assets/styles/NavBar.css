@@ -20,6 +20,11 @@
     height: 100px;
 }
 
+.NavBar .logo a{
+    width: inherit;
+    height: inherit;
+}
+
 .NavBar .logo img{
     width: inherit;
     height: inherit;

@@ -1,5 +1,6 @@
-import '../styles/Home.css'
-import binance from '../images/binance.jpg'
+import '../styles/Home.css';
+import binance from '../images/binance.jpg';
+import { NavLink } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -8,11 +9,11 @@ const Home = () => {
                 <div className="category">
                     <h3>Categorias</h3>
                     <ul>
-                        <li>Ganadores</li>
-                        <li>Reembolsos</li>
-                        <li>Intrucciones</li>
-                        <li>Historico de sorteo</li>
-                        <li>Deportes</li>
+                        <li><NavLink activeClassName="actived" to="/winners">Ganadores</NavLink></li>
+                        <li><NavLink activeClassName="actived" to="/refunds">Reembolsos</NavLink></li>
+                        <li><NavLink activeClassName="actived" to="/instructions">Instrucciones</NavLink></li>
+                        <li><NavLink activeClassName="actived" to="/lottery">Historico de sorteo</NavLink></li>
+                        <li><NavLink activeClassName="actived" to="/sports">Deportes</NavLink></li>
                     </ul>
                 </div>
                 <div className="content">
